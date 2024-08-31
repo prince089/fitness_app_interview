@@ -1,3 +1,5 @@
+import 'package:fitness_app/Theme/colors.dart';
+import 'package:fitness_app/Widget/User/celender.dart';
 import 'package:fitness_app/Widget/User/user_appbar.dart';
 import 'package:flutter/material.dart';
 
@@ -11,10 +13,17 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
+    return Scaffold(
       body: SafeArea(
-          child: Column(
-        children: [UserAppbar()],
+          child: Container(
+        color: AppColor.appBackground,
+        height: double.infinity,
+        child: const Column(
+          children: [
+            UserAppbar(),
+            Celender(),
+          ],
+        ),
       )),
     );
   }

@@ -1,6 +1,7 @@
 import 'package:fitness_app/Assets/app_string.dart';
 import 'package:fitness_app/Theme/colors.dart';
 import 'package:fitness_app/Theme/fontstyle.dart';
+import 'package:fitness_app/Widget/Core/icon_button.dart';
 import 'package:flutter/material.dart';
 
 class UserAppbar extends StatelessWidget {
@@ -47,19 +48,25 @@ class UserAppbar extends StatelessWidget {
               alignment: Alignment.centerRight,
               child: Row(
                 children: [
-                  IconButton(
+                  AppIconButton(
                     onPressed: () {},
                     icon: Icon(
                       Icons.search,
                       color: AppColor.black,
                     ),
                   ),
-                  IconButton(
+                  const SizedBox(
+                    width: 10,
+                  ),
+                  AppIconButton(
                     onPressed: () {},
                     icon: Icon(
                       Icons.notifications,
                       color: AppColor.black,
                     ),
+                  ),
+                  const SizedBox(
+                    width: 10,
                   ),
                 ],
               ))

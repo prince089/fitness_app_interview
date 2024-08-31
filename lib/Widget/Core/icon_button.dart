@@ -1,8 +1,8 @@
 import 'package:fitness_app/Theme/colors.dart';
 import 'package:flutter/material.dart';
 
-class IconButton extends StatefulWidget {
-  const IconButton({
+class AppIconButton extends StatefulWidget {
+  const AppIconButton({
     super.key,
     required this.icon,
     required this.onPressed,
@@ -12,10 +12,10 @@ class IconButton extends StatefulWidget {
   final Icon icon;
 
   @override
-  State<IconButton> createState() => _IconButtonState();
+  State<AppIconButton> createState() => _AppIconButtonState();
 }
 
-class _IconButtonState extends State<IconButton> {
+class _AppIconButtonState extends State<AppIconButton> {
   @override
   Widget build(BuildContext context) {
     return InkWell(

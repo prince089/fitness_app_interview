@@ -6,4 +6,5 @@ class AppColor {
   static Color secondary = Colors.white;
   static Color black = Colors.black;
   static Color greyColor = (Utils.colorFromHex("B3B3B3"));
+  static Color appBackground = (Utils.colorFromHex("F5F5F5"));
 }

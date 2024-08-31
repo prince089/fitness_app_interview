@@ -27,4 +27,9 @@ class AppFontStyle {
     fontSize: 18,
     color: AppColor.black,
   );
+
+  static TextStyle h3Reguler = TextStyle(
+    fontSize: 20,
+    color: AppColor.black,
+  );
 }
