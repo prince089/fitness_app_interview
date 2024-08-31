@@ -18,4 +18,13 @@ class AppFontStyle {
     fontWeight: FontWeight.normal,
     color: AppColor.greyColor,
   );
+
+  static TextStyle titlReguler = TextStyle(
+    fontSize: 22,
+    color: AppColor.black,
+  );
+  static TextStyle subTitleReguler = TextStyle(
+    fontSize: 18,
+    color: AppColor.black,
+  );
 }

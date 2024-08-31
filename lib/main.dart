@@ -1,4 +1,4 @@
-import 'package:fitness_app/Screen/on_board.dart';
+import 'package:fitness_app/Screen/home_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -15,6 +15,6 @@ class FitnessApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const OnBoard();
+    return const HomeScreen();
   }
 }
